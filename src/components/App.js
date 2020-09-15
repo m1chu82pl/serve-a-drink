@@ -2,7 +2,6 @@ import React from "react";
 // import App from './App.css';
 import Form from "./Form";
 import CocktailsList from "./CocktailsList"
-import Cocktail from "./Cocktail";
 
 class App extends React.Component {
   state = {
@@ -31,8 +30,8 @@ class App extends React.Component {
       })
       .then((response) => response.json())
       .then((cocktails) => {
-        this.setState({ cocktails });
-        console.log(cocktails);
+        this.setState({ cocktails: cocktails.drinks });
+        console.log(this.state.cocktails);
       })
       .catch((error) => {
         console.log(error);
@@ -46,8 +45,12 @@ class App extends React.Component {
     });
   };
 
+  handleShowDrink = (idDrink) => {
+    console.log(idDrink);
+  }
+
   render() {
-    console.log(this.state.cocktails);
+    // console.log(this.state.cocktails);
     return (
       <div className="appComponent">
         <Form
@@ -57,9 +60,8 @@ class App extends React.Component {
         />
         <CocktailsList
         cocktails={this.state.cocktails}
-    
+        showDrink={this.handleShowDrink}
         />
-        <Cocktail />
       </div>
     );
   }

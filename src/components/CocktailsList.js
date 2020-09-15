@@ -2,13 +2,14 @@ import React from "react";
 import Cocktail from "./Cocktail";
 
 const CocktailsList = (props) => {
-  const cocktails = props.cocktails.map((cocktail) => (
-    <Cocktail key={cocktail.idDrink} cocktail={cocktail} />
-  ));
+  console.log(props.cocktails);
+
+
   return (
     <div>
-      {cocktails}
-      {props.key}
+      {props.cocktails.map(cocktail => (
+        <Cocktail key={cocktail.idDrink} cocktail={cocktail} showDrink={props.showDrink} />
+      ))}
     </div>
   );
 };
