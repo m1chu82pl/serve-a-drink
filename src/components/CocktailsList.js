@@ -2,7 +2,7 @@ import React from "react";
 import Cocktail from "./Cocktail";
 
 const CocktailsList = (props) => {
-  console.log(props.cocktails);
+  // console.log(props.cocktails);
 
 
   return (
