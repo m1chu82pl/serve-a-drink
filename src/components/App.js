@@ -1,15 +1,15 @@
 import React from "react";
-// import App from './App.css';
+import "./App.scss";
 import Form from "./Form";
 import CocktailsList from "./CocktailsList";
-import CocktailDetails from "./CocktailDetails"
+import CocktailDetails from "./CocktailDetails";
 
 class App extends React.Component {
   state = {
     formDrinkName: "",
-    cocktails: [],  
+    cocktails: [],
     cocktailDetails: [],
-    clickedCocktail: true,
+    clickedCocktail: false,
     error: false,
   };
 
@@ -33,8 +33,13 @@ class App extends React.Component {
       })
       .then((response) => response.json())
       .then((cocktails) => {
-        this.setState({ cocktails: cocktails.drinks });
-        console.log(this.state.cocktails);
+        if (cocktails.drinks === null) {
+          this.setState({ cocktails: [] });
+          
+        } else {
+          this.setState({ cocktails: cocktails.drinks });
+          console.log(this.state.cocktails);
+        }
       })
       .catch((error) => {
         console.log(error);
@@ -73,17 +78,23 @@ class App extends React.Component {
           error: true,
         });
       });
-      // this.setState({
-      //   clicedCocktail: !this.state.clickedCocktail,
-      // })
+    this.setState({
+      clickedCocktail: true,
+    });
+  };
+
+  handleReturnToCocktailList = () => {
+    this.setState({
+      clickedCocktail: false,
+    });
   };
 
   render() {
     console.log(this.state.cocktailDetails);
-    // const clickedCocktail = this.state.clickedCocktail;
+    const clickedCocktail = this.state.clickedCocktail;
 
     return (
-      <div className="appComponent">
+      <div className="App">
         <Form
           value={this.state.formDrinkName}
           change={this.handleChangeInputValue}
@@ -93,11 +104,14 @@ class App extends React.Component {
           cocktails={this.state.cocktails}
           showDrink={this.handleShowDrink}
         />
-        {/* {clickedCocktail ? ( */}
-          <CocktailDetails cocktailDetails={this.state.cocktailDetails}/>
-        {/* ) : ( */}
-          {/* <h1>noooo</h1> */}
-        {/* )} */}
+        {clickedCocktail ? (
+          <CocktailDetails
+            cocktailDetails={this.state.cocktailDetails}
+            clicked={this.handleReturnToCocktailList}
+          />
+        ) : (
+          ""
+        )}
       </div>
     );
   }
