@@ -33,13 +33,7 @@ class App extends React.Component {
       })
       .then((response) => response.json())
       .then((cocktails) => {
-        if (cocktails.drinks === null) {
-          this.setState({ cocktails: [] });
-          
-        } else {
-          this.setState({ cocktails: cocktails.drinks });
-          console.log(this.state.cocktails);
-        }
+        this.setState({ cocktails: cocktails.drinks });
       })
       .catch((error) => {
         console.log(error);
