@@ -1,6 +1,14 @@
-.cocktail {
-  background-color: aquamarine;
-  // margin: 5px;
-  cursor: pointer;
+.cocktail--container {
+  background-color: rgb(56, 39, 133);
 
+  .cocktail--name {
+    background-color: aquamarine;
+    // margin: 5px;
+    cursor: pointer;
+  }
+  
+  .cocktail--img {
+    max-width: 10vw;
+    cursor: pointer;
+  }
 }
