@@ -80,6 +80,7 @@ class App extends React.Component {
   handleReturnToCocktailList = () => {
     this.setState({
       clickedCocktail: false,
+      cocktailDetails: [],
     });
   };
 
