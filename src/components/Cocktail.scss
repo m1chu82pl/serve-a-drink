@@ -1,4 +1,5 @@
 .cocktail--container {
+  flex-basis: 30vw;
   background-color: rgb(56, 39, 133);
 
   .cocktail--name {
@@ -6,9 +7,9 @@
     // margin: 5px;
     cursor: pointer;
   }
-  
+
   .cocktail--img {
-    max-width: 10vw;
+    max-height: 10vh;
     cursor: pointer;
   }
 }

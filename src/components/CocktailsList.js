@@ -7,7 +7,7 @@ const CocktailsList = (props) => {
 
 console.log(props.cocktails);
   return (
-    <div>      
+    <div className="cocktails--container">      
       {props.cocktails === null ? <DoesntExist/> : 
       props.cocktails.map(cocktail => (
         <Cocktail key={cocktail.idDrink} cocktail={cocktail} showDrink={props.showDrink} />
