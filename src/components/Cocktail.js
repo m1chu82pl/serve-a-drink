@@ -6,10 +6,10 @@ const Cocktail = (props) => {
 
   return (
     <div className="cocktail--container">
-      <img className="cocktail--img" src={strDrinkThumb} alt="some drink"/>
-      <p className="cocktail--name" onClick={() => props.showDrink(idDrink)}>
-        "{strDrink}"
-      </p>
+      <img className="cocktail--img" src={strDrinkThumb} alt="some drink" onClick={() => props.showDrink(idDrink)}/>
+      <h2 className="cocktail--name" onClick={() => props.showDrink(idDrink)}>
+        {strDrink}
+      </h2>
     </div>
   );
 };

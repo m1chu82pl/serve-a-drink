@@ -3,11 +3,18 @@ import React from "react";
 const Form = (props) => {
 
   const formStyles = {
-    backgroundColor: "red",
+    width: "90vw",
+    padding: "10px",
+    margin: "10px 0 20px",
+    borderRadius: "40px",
+    backgroundColor: "rgb(167, 255, 193)",
+    boxShadow: "inset 0px 0px 5px 5px white",
+    textAlign: "center"
   }
 
   const buttonStyles = {
-    backgroundColor: "yellow"
+    backgroundColor: "yellow",
+    margin: "10px 50px",
   }
 
   return (

@@ -1,15 +1,28 @@
 .cocktail--container {
-  flex-basis: 30vw;
-  background-color: rgb(56, 39, 133);
+  width: 90vw;
+  margin: 0 auto;
+  flex-basis: 45vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 50px 50px white;
+  background-color: rgb(27, 16, 77);
 
   .cocktail--name {
-    background-color: aquamarine;
-    // margin: 5px;
+    width: 100%;
+    // background-color: aquamarine;
+    text-align: center;
     cursor: pointer;
   }
 
   .cocktail--img {
-    max-height: 10vh;
+    // display: block;
+    margin: 0 auto;
+    max-height: 35vw;
+    border-radius: 10%;
+    filter:drop-shadow(8px 8px 10px gray);
     cursor: pointer;
   }
 }

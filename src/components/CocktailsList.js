@@ -5,7 +5,7 @@ import DoesntExist from "./DoesntExist";
 const CocktailsList = (props) => {
   // console.log(props.cocktails);
 
-console.log(props.cocktails);
+// console.log(props.cocktails);
   return (
     <div className="cocktails--container">      
       {props.cocktails === null ? <DoesntExist/> : 
