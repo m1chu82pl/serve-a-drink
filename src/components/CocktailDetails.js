@@ -1,5 +1,7 @@
 import React from "react";
 import "./CocktailDetails.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleLeft } from "@fortawesome/free-solid-svg-icons";
 
 const CocktailDetails = (props) => {
   const {
@@ -14,7 +16,7 @@ const CocktailDetails = (props) => {
     // backgroundRepeat: "no-repeat",
     // backgroundSize: "100% 100%",
     // "url(https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg) no-repeat",
-    boxShadow: "100px 25px 50px 0 white inset, -25px -25px 50px 0 white inset",
+    boxShadow: "15px 15px 50px 0 black inset, -15px -15px 50px 0 black inset",
     width: "100%",
     height: "100%",
   };
@@ -27,6 +29,11 @@ const CocktailDetails = (props) => {
         <h2>{idDrink}</h2>
         <h3>{strInstructions}</h3>
         <button onClick={props.clicked}>return to list</button>
+        <FontAwesomeIcon
+          icon={faArrowCircleLeft}
+          className="back-button"
+          onClick={props.clicked}
+        />
       </div>
     </div>
   );
