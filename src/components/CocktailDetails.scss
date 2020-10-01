@@ -18,6 +18,8 @@
   background-color: rgb(155, 155, 155);
   // border: 3px solid rgb(255, 255, 255);
   // transform: translate(5%, 5%);
+  z-index: 2;
+
 
   h1, h2, h3 {
     width: 100vw;
@@ -25,7 +27,7 @@
     margin: 1vw auto;
     padding: 5px;
     color: whitesmoke;
-    text-shadow: 2px 2px 4px #000000
+    text-shadow: 2px 2px 4px #000000;
     // background-color: rgba(70, 59, 59, 0.5);
   }
   .back-button {
@@ -34,6 +36,9 @@
     bottom: 5vh;
     font-size: 7vh;
     color: rgba(245, 245, 245, 0.829);
-    background-color: transparent;
+    border-radius: 50%;
+    // background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.63);
+    cursor: pointer;
   }
 }

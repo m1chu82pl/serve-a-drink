@@ -12,13 +12,15 @@ const CocktailDetails = (props) => {
   } = props.cocktailDetails;
 
   const imgContainer = {
-    background: `url(${strDrinkThumb}) no-repeat fixed center`,
+    backgroundImage: `url(${strDrinkThumb})`,
     // backgroundRepeat: "no-repeat",
     // backgroundSize: "100% 100%",
     // "url(https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg) no-repeat",
-    boxShadow: "15px 15px 50px 0 black inset, -15px -15px 50px 0 black inset",
-    width: "100%",
     height: "100%",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    boxShadow: "15px 15px 50px 0 black inset, -15px -15px 50px 0 black inset",
   };
 
   // console.log(props.cocktailDetails);

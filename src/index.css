@@ -4,11 +4,23 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
+body, html {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* margin: 0; */
   /* width: 100vw; */
-  /* height: 100vh; */
-  font-family:'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  /* overflow: hidden; */
-  overflow-y: none;
+  background-color: rgb(0, 0, 0);
+  /* background-image: url(https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg); */
+  /* height: "100%"; */
+  /* background-image: url("./images/champagner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; */
+  /* max-width: 800px; */
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+  /* overflow-y: none; */
 }

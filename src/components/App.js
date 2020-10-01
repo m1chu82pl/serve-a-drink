@@ -3,6 +3,7 @@ import "./App.scss";
 import Form from "./Form";
 import CocktailsList from "./CocktailsList";
 import CocktailDetails from "./CocktailDetails";
+import champagner from "../images/champagner.png";
 
 class App extends React.Component {
   state = {
@@ -90,6 +91,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <img className="App--background" src={champagner} alt="drink background"/>
         <Form
           value={this.state.formDrinkName}
           change={this.handleChangeInputValue}

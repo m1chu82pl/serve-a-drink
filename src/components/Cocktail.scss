@@ -1,18 +1,20 @@
 .cocktail--container {
-  width: 90vw;
+  // width: 100vw;
   margin: 0 auto;
-  flex-basis: 45vw;
+  flex-basis: 20vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  box-shadow: inset 0px 0px 50px 50px white;
-  background-color: rgb(27, 16, 77);
+  // align-items: center;
+  // box-shadow: inset 0px 0px 50px 50px white;
+  // background-color: rgb(255, 255, 255);
 
   .cocktail--name {
     width: 100%;
     // background-color: aquamarine;
+    color: blanchedalmond;
+    text-shadow: 2px 2px 4px #ffffff;
     text-align: center;
     cursor: pointer;
   }
@@ -20,9 +22,9 @@
   .cocktail--img {
     // display: block;
     margin: 0 auto;
-    max-height: 35vw;
+    max-width: 28vw;
     border-radius: 10%;
-    filter:drop-shadow(8px 8px 10px gray);
+    filter:drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.226));
     cursor: pointer;
   }
 }
