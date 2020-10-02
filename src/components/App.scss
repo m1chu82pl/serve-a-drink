@@ -2,18 +2,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  // margin: 0 calc(5vw + 80px) 0 calc(5vw - 80px);
   margin: 0 auto;
-  // margin-left: 80px;
-  // display: block;
   width: 100vw;
-  // height: 100vh;
-  // padding: 100px;
-  // transform: translateX(-8px);
-  // min-width: 480px;
-  // text-align: center;
   background-color: black;
-  // overflow: hidden;
 
   .App--background {
     position: fixed;
@@ -32,7 +23,6 @@
   @keyframes example {
     0% {
       transform: translate(0, 0);
-      // height: 130%;
       opacity: 0;
     }
     10% {
@@ -44,7 +34,6 @@
 
     100% {
       transform: translate(-3%, -2%);
-      // height: 120%;
       opacity: 0;
     }
   }
@@ -53,14 +42,12 @@
     position: absolute;
     top: 0;
     width: 100vw;
-    min-height: 100vh;    // tutaj
+    min-height: 100vh;
     margin: auto;
     padding: 10vh 0;
-    // min-width: 480px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    // align-content: center;
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.76);
   }

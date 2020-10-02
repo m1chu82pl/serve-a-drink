@@ -7,31 +7,18 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  // padding: 0 50px;
-  // padding-right: 17px;
-  // background-repeat: no-repeat;
-  // background-size: auto;
 
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
+  // 
   text-align: center;
-  // box-shadow: "0 0 80px 80px white inset";
   background-color: rgb(155, 155, 155);
-  // border: 3px solid rgb(255, 255, 255);
-  // transform: translate(5%, 5%);
   z-index: 2;
 
 
   h1, h2, h3 {
     width: 100vw;
-    // height: 100vh;
-    // margin: 1vw;
     padding: 5px 3vw;
     color: whitesmoke;
     text-shadow: 2px 2px 4px #000000;
-    // background-color: rgba(70, 59, 59, 0.5);
   }
   .back-button {
     position: absolute;
@@ -40,7 +27,6 @@
     font-size: 7vh;
     color: rgba(245, 245, 245, 0.829);
     border-radius: 50%;
-    // background-color: transparent;
     background-color: rgba(0, 0, 0, 0.63);
     cursor: pointer;
   }

@@ -1,5 +1,4 @@
 .cocktail--container {
-  // width: 100vw;
   margin: 3vh 2vh;
   flex-basis: 25vw;
   display: flex;
@@ -7,12 +6,9 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  // box-shadow: inset 0px 0px 50px 50px white;
-  // background-color: rgb(255, 255, 255);
 
   .cocktail--name {
     width: 100%;
-    // background-color: aquamarine;
     color: blanchedalmond;
     text-shadow: 2px 2px 4px #ffffff;
     text-align: center;
@@ -20,7 +16,6 @@
   }
 
   .cocktail--img {
-    // display: block;
     margin: 0 2vw;
     height: 20vh;
     width: auto;

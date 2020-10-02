@@ -2,8 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFrown } from "@fortawesome/free-solid-svg-icons";
 
-const DoesntExist = (props) => {
-  // const {idDrink, strDrink} = props.cocktail;
+const DoesntExist = () => {
 
   const doesntExistTestStyle = {
     color: "whitesmoke",

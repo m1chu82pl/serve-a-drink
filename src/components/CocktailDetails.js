@@ -14,9 +14,6 @@ const CocktailDetails = (props) => {
 
   const imgContainer = {
     backgroundImage: `url(${strDrinkThumb})`,
-    // backgroundRepeat: "no-repeat",
-    // backgroundSize: "100% 100%",
-    // "url(https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg) no-repeat",
     height: "100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -34,7 +31,6 @@ const CocktailDetails = (props) => {
       <div className="cocktailDetails--image" style={imgContainer}>
         <h1 style={{ fontSize: "60px" }}>{strDrink}</h1>
         <h2>{idDrink}</h2>
-        {/* <div>{props.cocktailDetails.map(x => console.log(x))}</div> */}
         <Ingredients cocktailDetails={props.cocktailDetails} />
         <h2>{strInstructions}</h2>
         <button onClick={props.clicked}>return to list</button>
