@@ -86,7 +86,7 @@ class App extends React.Component {
   };
 
   render() {
-    // console.log(this.state.cocktails);
+    console.log(this.state.cocktailsDetails);
     const clickedCocktail = this.state.clickedCocktail;
 
     return (

@@ -1,15 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Form = (props) => {
-
   const formStyles = {
     position: "relative",
-    // top: "10px",
-    // left: "5vw",
     width: "90vw",
     height: "7vh",
-    // padding: "20px",
-    // textAlign: "center",
     margin: "0 auto",
     borderRadius: "40px",
     backgroundColor: "rgba(0, 0, 0, 0.548)",
@@ -17,7 +14,7 @@ const Form = (props) => {
     textAlign: "center",
     zIndex: "1",
     display: "flex",
-  }
+  };
 
   const inputStyles = {
     position: "relative",
@@ -25,30 +22,40 @@ const Form = (props) => {
     height: "5vh",
     margin: "0 auto",
     backgroundColor: "black",
-    color: "white",
-  }
+    border: "none",   
+    fontWeight: "700",
+  };
 
   const buttonStyles = {
     position: "relative",
     top: "1vh",
     height: "5vh",
     color: "white",
-    backgroundColor: "black",
+    backgroundColor: "transparent",
     margin: "0 auto",
-  }
+    cursor: "pointer",
+    borderRadius: "10px",
+  };
+
 
   return (
     <form style={formStyles} onSubmit={props.submit}>
       <input
-      style={inputStyles}
+        style={inputStyles}
         type="text"
         name=""
         id=""
-        placeholder="search by name"
+        placeholder="write something.."
         onChange={props.change}
         value={props.value}
       />
-      <button style={buttonStyles}>show {props.value} drink</button>
+      <button style={buttonStyles}>
+      <FontAwesomeIcon icon={faSearch} />{" "}
+        {props.value.length < 7
+          ? props.value.slice(0, 7)
+          : props.value.slice(props.value.length - 7, props.value.length)}{" "}
+        drink
+      </button>
     </form>
   );
 };

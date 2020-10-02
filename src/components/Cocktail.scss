@@ -1,12 +1,12 @@
 .cocktail--container {
   // width: 100vw;
-  margin: 0 auto;
-  flex-basis: 20vw;
+  margin: 3vh 2vh;
+  flex-basis: 25vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  // align-items: center;
+  justify-content: flex-start;
+  align-items: center;
   // box-shadow: inset 0px 0px 50px 50px white;
   // background-color: rgb(255, 255, 255);
 
@@ -21,8 +21,9 @@
 
   .cocktail--img {
     // display: block;
-    margin: 0 auto;
-    max-width: 28vw;
+    margin: 0 2vw;
+    height: 20vh;
+    width: auto;
     border-radius: 10%;
     filter:drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.226));
     cursor: pointer;
