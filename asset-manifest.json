@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/cocktails/static/css/main.ff730e9d.chunk.css",
-    "main.js": "/cocktails/static/js/main.489da8b1.chunk.js",
-    "main.js.map": "/cocktails/static/js/main.489da8b1.chunk.js.map",
-    "runtime-main.js": "/cocktails/static/js/runtime-main.2c7a60ac.js",
-    "runtime-main.js.map": "/cocktails/static/js/runtime-main.2c7a60ac.js.map",
-    "static/js/2.5b8a3794.chunk.js": "/cocktails/static/js/2.5b8a3794.chunk.js",
-    "static/js/2.5b8a3794.chunk.js.map": "/cocktails/static/js/2.5b8a3794.chunk.js.map",
-    "index.html": "/cocktails/index.html",
-    "precache-manifest.394f431a2cba50ff4524defd3162b2ed.js": "/cocktails/precache-manifest.394f431a2cba50ff4524defd3162b2ed.js",
-    "service-worker.js": "/cocktails/service-worker.js",
-    "static/css/main.ff730e9d.chunk.css.map": "/cocktails/static/css/main.ff730e9d.chunk.css.map",
-    "static/js/2.5b8a3794.chunk.js.LICENSE.txt": "/cocktails/static/js/2.5b8a3794.chunk.js.LICENSE.txt",
-    "static/media/champagner.png": "/cocktails/static/media/champagner.7688fc4f.png"
+    "main.css": "/m1chu82pl/serve-a-drink/static/css/main.ff730e9d.chunk.css",
+    "main.js": "/m1chu82pl/serve-a-drink/static/js/main.489da8b1.chunk.js",
+    "main.js.map": "/m1chu82pl/serve-a-drink/static/js/main.489da8b1.chunk.js.map",
+    "runtime-main.js": "/m1chu82pl/serve-a-drink/static/js/runtime-main.aae9a6fc.js",
+    "runtime-main.js.map": "/m1chu82pl/serve-a-drink/static/js/runtime-main.aae9a6fc.js.map",
+    "static/js/2.5b8a3794.chunk.js": "/m1chu82pl/serve-a-drink/static/js/2.5b8a3794.chunk.js",
+    "static/js/2.5b8a3794.chunk.js.map": "/m1chu82pl/serve-a-drink/static/js/2.5b8a3794.chunk.js.map",
+    "index.html": "/m1chu82pl/serve-a-drink/index.html",
+    "precache-manifest.a9ff6cd840a0b9d751fe298e8773617a.js": "/m1chu82pl/serve-a-drink/precache-manifest.a9ff6cd840a0b9d751fe298e8773617a.js",
+    "service-worker.js": "/m1chu82pl/serve-a-drink/service-worker.js",
+    "static/css/main.ff730e9d.chunk.css.map": "/m1chu82pl/serve-a-drink/static/css/main.ff730e9d.chunk.css.map",
+    "static/js/2.5b8a3794.chunk.js.LICENSE.txt": "/m1chu82pl/serve-a-drink/static/js/2.5b8a3794.chunk.js.LICENSE.txt",
+    "static/media/champagner.png": "/m1chu82pl/serve-a-drink/static/media/champagner.7688fc4f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c7a60ac.js",
+    "static/js/runtime-main.aae9a6fc.js",
     "static/js/2.5b8a3794.chunk.js",
     "static/css/main.ff730e9d.chunk.css",
     "static/js/main.489da8b1.chunk.js"
