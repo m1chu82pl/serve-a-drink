@@ -25,14 +25,15 @@ const CocktailDetails = (props) => {
     alignItems: "center",
   };
 
-  console.log(props.cocktailDetails);
   return (
     <div className="cocktailDetails">
       <div className="cocktailDetails--image" style={imgContainer}>
-        <h1 style={{ fontSize: "60px" }}>{strDrink}</h1>
+        <h1>{strDrink}</h1>
         <h2>{idDrink}</h2>
         <Ingredients cocktailDetails={props.cocktailDetails} />
-        <h2>{strInstructions}</h2>
+        <div className="cocktailDetails--instructions">
+          <h2>{strInstructions}</h2>
+        </div>
         <button onClick={props.clicked}>return to list</button>
         <FontAwesomeIcon
           icon={faArrowCircleLeft}

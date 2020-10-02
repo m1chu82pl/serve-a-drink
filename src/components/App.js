@@ -27,7 +27,6 @@ class App extends React.Component {
     fetch(URL)
       .then((response) => {
         if (response.ok) {
-          console.log(response);
           return response;
         }
         throw Error("coś poszło nie tak");
@@ -49,13 +48,11 @@ class App extends React.Component {
   };
 
   handleShowDrink = (idDrink) => {
-    console.log(idDrink);
     const URL = `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${idDrink}`;
 
     fetch(URL)
       .then((response) => {
         if (response.ok) {
-          console.log(response);
           return response;
         }
         throw Error("tu też coś poszło nie tak");
