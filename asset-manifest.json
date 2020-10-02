@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/m1chu82pl/serve-a-drink/static/css/main.ff730e9d.chunk.css",
-    "main.js": "/m1chu82pl/serve-a-drink/static/js/main.489da8b1.chunk.js",
-    "main.js.map": "/m1chu82pl/serve-a-drink/static/js/main.489da8b1.chunk.js.map",
-    "runtime-main.js": "/m1chu82pl/serve-a-drink/static/js/runtime-main.aae9a6fc.js",
-    "runtime-main.js.map": "/m1chu82pl/serve-a-drink/static/js/runtime-main.aae9a6fc.js.map",
-    "static/js/2.5b8a3794.chunk.js": "/m1chu82pl/serve-a-drink/static/js/2.5b8a3794.chunk.js",
-    "static/js/2.5b8a3794.chunk.js.map": "/m1chu82pl/serve-a-drink/static/js/2.5b8a3794.chunk.js.map",
-    "index.html": "/m1chu82pl/serve-a-drink/index.html",
-    "precache-manifest.a9ff6cd840a0b9d751fe298e8773617a.js": "/m1chu82pl/serve-a-drink/precache-manifest.a9ff6cd840a0b9d751fe298e8773617a.js",
-    "service-worker.js": "/m1chu82pl/serve-a-drink/service-worker.js",
-    "static/css/main.ff730e9d.chunk.css.map": "/m1chu82pl/serve-a-drink/static/css/main.ff730e9d.chunk.css.map",
-    "static/js/2.5b8a3794.chunk.js.LICENSE.txt": "/m1chu82pl/serve-a-drink/static/js/2.5b8a3794.chunk.js.LICENSE.txt",
-    "static/media/champagner.png": "/m1chu82pl/serve-a-drink/static/media/champagner.7688fc4f.png"
+    "main.css": "/serve-a-drink/static/css/main.ff730e9d.chunk.css",
+    "main.js": "/serve-a-drink/static/js/main.489da8b1.chunk.js",
+    "main.js.map": "/serve-a-drink/static/js/main.489da8b1.chunk.js.map",
+    "runtime-main.js": "/serve-a-drink/static/js/runtime-main.2d534ec3.js",
+    "runtime-main.js.map": "/serve-a-drink/static/js/runtime-main.2d534ec3.js.map",
+    "static/js/2.5b8a3794.chunk.js": "/serve-a-drink/static/js/2.5b8a3794.chunk.js",
+    "static/js/2.5b8a3794.chunk.js.map": "/serve-a-drink/static/js/2.5b8a3794.chunk.js.map",
+    "index.html": "/serve-a-drink/index.html",
+    "precache-manifest.c6976d4a2b81b1891ceabae17ee6ea36.js": "/serve-a-drink/precache-manifest.c6976d4a2b81b1891ceabae17ee6ea36.js",
+    "service-worker.js": "/serve-a-drink/service-worker.js",
+    "static/css/main.ff730e9d.chunk.css.map": "/serve-a-drink/static/css/main.ff730e9d.chunk.css.map",
+    "static/js/2.5b8a3794.chunk.js.LICENSE.txt": "/serve-a-drink/static/js/2.5b8a3794.chunk.js.LICENSE.txt",
+    "static/media/champagner.png": "/serve-a-drink/static/media/champagner.7688fc4f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aae9a6fc.js",
+    "static/js/runtime-main.2d534ec3.js",
     "static/js/2.5b8a3794.chunk.js",
     "static/css/main.ff730e9d.chunk.css",
     "static/js/main.489da8b1.chunk.js"
