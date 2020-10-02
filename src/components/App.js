@@ -62,7 +62,6 @@ class App extends React.Component {
       })
       .then((response) => response.json())
       .then((cocktailDetails) => {
-        console.log(cocktailDetails.drinks[0]);
         this.setState({
           cocktailDetails: cocktailDetails.drinks[0],
         });
@@ -86,7 +85,6 @@ class App extends React.Component {
   };
 
   render() {
-    console.log(this.state.cocktailsDetails);
     const clickedCocktail = this.state.clickedCocktail;
 
     return (
