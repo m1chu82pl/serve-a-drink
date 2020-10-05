@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 body,
