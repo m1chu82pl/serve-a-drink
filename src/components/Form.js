@@ -62,7 +62,7 @@ const Form = (props) => {
         type="text"
         name=""
         id=""
-        placeholder="write something.."
+        placeholder="drink name"
         onChange={props.change}
         value={props.value}
       />

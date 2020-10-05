@@ -34,7 +34,7 @@ const CocktailDetails = (props) => {
         <div className="cocktailDetails--instructions">
           <h2>{strInstructions}</h2>
         </div>
-        <button onClick={props.clicked}>return to list</button>
+        <button onClick={props.clicked}>return</button>
         <FontAwesomeIcon
           icon={faArrowCircleLeft}
           className="back-button"
