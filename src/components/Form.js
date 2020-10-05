@@ -11,7 +11,6 @@ const Form = (props) => {
     height: "7vh",
     minHeight: "40px",
     fontSize: "16px",
-    // margin: "0 auto",
     borderRadius: "40px",
     backgroundColor: "rgba(0, 0, 0, 0.548)",
     boxShadow: "inset 0px 0px 5px 5px white",
@@ -24,17 +23,13 @@ const Form = (props) => {
   };
 
   const inputStyles = {
-    // display: "block",
     position: "relative",
-    // top: "1vh",
     height: "5vh",
     minHeight: "30px",
     width: "20vw",
     minWidth: "120px",
     fontSize: "1em",
     textIndent: "10px",
-    // margin: "0 auto",
-    // backgroundColor: "transparent",
     border: "none",   
     borderRadius: "10px",
     fontWeight: "700",
@@ -42,14 +37,12 @@ const Form = (props) => {
 
   const buttonStyles = {
     position: "relative",
-    // top: "1vh",
     height: "5vh",
     width: "20vw",
     minWidth: "120px",
     fontSize: "1em",
     color: "white",
     backgroundColor: "transparent",
-    // margin: "0 auto",
     cursor: "pointer",
     borderRadius: "10px",
   };
