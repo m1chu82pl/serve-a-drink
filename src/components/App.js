@@ -22,6 +22,8 @@ class App extends React.Component {
 
   handleDrinkSubmit = (event) => {
     event.preventDefault();
+
+    if (this.state.formDrinkName.length === 0) return;
     const URL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${this.state.formDrinkName}`;
 
     fetch(URL)
