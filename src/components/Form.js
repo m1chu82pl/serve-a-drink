@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Form = (props) => {
   const formStyles = {
@@ -12,60 +10,40 @@ const Form = (props) => {
     minHeight: "40px",
     fontSize: "16px",
     borderRadius: "40px",
-    backgroundColor: "rgba(0, 0, 0, 0.548)",
-    boxShadow: "inset 0px 0px 5px 5px white",
-    textAlign: "center",
+    backgroundColor: "white",
+    boxShadow: "inset 0px 0px 5px 5px black",
     zIndex: "1",
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-around",
     alignItems: "center",
   };
-
+  
   const inputStyles = {
     position: "relative",
     height: "5vh",
     minHeight: "30px",
-    width: "20vw",
+    width: "90vw",
     minWidth: "120px",
     fontSize: "1em",
-    textIndent: "10px",
+    textIndent: "20px",
+    backgroundColor: "transparent",
     border: "none",   
+    outlineColor: "transparent",
     borderRadius: "10px",
     fontWeight: "700",
   };
 
-  const buttonStyles = {
-    position: "relative",
-    height: "5vh",
-    width: "20vw",
-    minWidth: "120px",
-    fontSize: "1em",
-    color: "white",
-    backgroundColor: "transparent",
-    cursor: "pointer",
-    borderRadius: "10px",
-  };
-
-
   return (
-    <form style={formStyles} onSubmit={props.submit}>
+    <form style={formStyles}>
       <input
         style={inputStyles}
         type="text"
         name=""
         id=""
-        placeholder="drink name"
+        placeholder="a part of drink name..."
         onChange={props.change}
         value={props.value}
       />
-      <button style={buttonStyles}>
-      <FontAwesomeIcon icon={faSearch} />{" "}
-        {props.value.length < 7
-          ? props.value.slice(0, 7)
-          : props.value.slice(props.value.length - 7, props.value.length)}{" "}
-        drink
-      </button>
     </form>
   );
 };

@@ -8,14 +8,14 @@
 
   .App--background {
     position: fixed;
-    top: -50px;
-    left: -120px;
+    top: 0;
+    left: -20px;
     height: 110%;
     width: auto;
     opacity: 0;
 
     animation-name: champagner;
-    animation-duration: 13s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
@@ -33,7 +33,7 @@
     }
 
     100% {
-      transform: translate(-3%, -2%);
+      transform: translate(-4%, -3%);
       opacity: 0;
     }
   }
