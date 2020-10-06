@@ -11,10 +11,11 @@ const Form = (props) => {
     fontSize: "16px",
     borderRadius: "40px",
     backgroundColor: "white",
-    boxShadow: "inset 0px 0px 5px 5px black",
+    boxShadow: "0px 0px 5px 5px white",
     zIndex: "1",
     display: "flex",
     flexDirection: "row",
+    justifyContent: "center",
     alignItems: "center",
   };
   
@@ -22,7 +23,7 @@ const Form = (props) => {
     position: "relative",
     height: "5vh",
     minHeight: "30px",
-    width: "90vw",
+    width: "90%",
     minWidth: "120px",
     fontSize: "1em",
     textIndent: "20px",
