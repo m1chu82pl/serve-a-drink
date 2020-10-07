@@ -22,5 +22,8 @@
     border-radius: 10%;
     filter:drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.226));
     cursor: pointer;
+    @media (min-width: 480px) and (orientation: landscape) {
+      height: 15vw;
+     }
   }
 }

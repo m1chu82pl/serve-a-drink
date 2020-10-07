@@ -3,7 +3,7 @@ import React from "react";
 const Form = (props) => {
   const formStyles = {
     position: "absolute",
-    top: "2vh",
+    top: "4vh",
     left: "5vw",
     width: "90vw",
     height: "7vh",
