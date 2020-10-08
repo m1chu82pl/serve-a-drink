@@ -14,7 +14,7 @@
   z-index: 2;
 
   .cocktailDetails--instructions {
-    max-height: 20vh;
+    max-height: 25%;
     margin: 1vh 0;
     overflow-x: auto;
     background-color: rgba(0, 0, 0, 0.185);
@@ -23,18 +23,19 @@
   h1,
   h2,
   h3 {
-    padding: 1vw 3vw;
+    padding: 2px 2vw;
     color: whitesmoke;
     text-shadow: 2px 2px 4px #000000;
   }
   h1 {
-    font-size: 5vh;
+    // font-size: 5vh;
+    font-size: calc(1rem + 5vw);
   }
   h2 {
-    font-size: 3vh;
+    font-size: calc(1rem + 2vw);
   }
   h3 {
-    font-size: 2vh;
+    font-size: calc(1rem + 1vw);
   }
 
   .back-button {

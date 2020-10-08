@@ -35,7 +35,7 @@ const Ingredients = (props) => {
   } = props.cocktailDetails;
 
 const ingredientsStyle = {
-  maxHeight: "15vh",
+  maxHeight: "20vh",
   width: "100vw",
   background: "rgba(0, 0, 0, 0.15)",
   display: "flex",
