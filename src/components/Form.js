@@ -43,6 +43,9 @@ const Form = (props) => {
         id=""
         placeholder="a part of drink name..."
         onChange={props.change}
+        onKeyPress={e => {
+          if (e.key === 'Enter') e.preventDefault();
+        }}
         value={props.value}
       />
     </form>
